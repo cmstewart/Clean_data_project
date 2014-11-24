@@ -1,0 +1,38 @@
+---
+title: "R Markdown document for the Getting and Cleaning Data class project"
+author: "Christopher Stewart"
+date: "November 22, 2014"
+output: html_document
+---
+
+
+# Description of data
+
+This data is derived from training and test experiments on 30 volunteers perforiming 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. The data include a 561-feature vector with time and frequency domain variables found in X_test.txt. y_test.txt contains labels for the aforementioned activities.
+
+## Scripts and data preparation
+
+To begin, download the data here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Unzip it and put in a directory along with run_analysis.R. Running this R script merges the training and the test sets, yielding a txt file with the mean values for subjects and activity levels. 
+
+
+
+
+
+
+
+For the scripts used to get and clean this data to work, 
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
